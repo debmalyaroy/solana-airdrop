@@ -1,12 +1,10 @@
-const {
-  Connection,
-  PublicKey,
-  clusterApiUrl,
-  Keypair,
+import {
+  Connection, 
+  PublicKey, 
+  clusterApiUrl, 
+  Keypair, 
   LAMPORTS_PER_SOL,
-  Transaction,
-  Account,
-} = require("@solana/web3.js");
+} from "@solana/web3.js";
 
 // Generating a new wallet keypair
 const newPair = new Keypair();
